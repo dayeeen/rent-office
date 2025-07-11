@@ -458,7 +458,6 @@ export default function CityDetailPage() {
                     </a>
                 </div>
             </section>
-        </>,
-
+        </>
   );
 } 

@@ -320,6 +320,6 @@ export default function OfficeSpaceDetailPage() {
                     </div>
                 </div>
             </section>
-        </>,
+        </>
         );
     }
