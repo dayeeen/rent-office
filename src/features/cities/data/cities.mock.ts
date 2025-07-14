@@ -1,4 +1,4 @@
-import { City } from '../../types/city.types';
+import { City } from '../types/city.types';
 
 const cityNames = [
     'Jakarta',
@@ -17,7 +17,7 @@ export const cities: City[] = cityNames.map((name, i) => {
     // const officeCount = officeSpaces.filter((space)=> space.location === name).length;
 
     return {
-        id: i + 1,
+        id: (i + 1).toString(),
         name,
         officeCount: 1,
         image: `/assets/images/thumbnails/thumbnails-${(i % 3) + 1}.png`,
