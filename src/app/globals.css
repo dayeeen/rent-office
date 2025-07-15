@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500');
+
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
 /*
 ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 */
 
-@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500');
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
