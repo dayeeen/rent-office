@@ -1,6 +1,6 @@
 "use client";
 
-import CityCard from "@/components/CityCard";
+import CityCard from "@/features/cities/components/CityCard";
 import { cities } from "../data/cities.mock";
 import { Swiper, SwiperSlide } from "swiper/react";
 
